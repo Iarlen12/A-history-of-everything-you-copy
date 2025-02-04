@@ -27,9 +27,11 @@ header{
   text-align: center;
   margin-bottom:6cm;
 }
-header p{
+header p, h1{
   text-indent: 25px;
+  padding:10px 50px 0 50px;
 }
+
 #back-topo{
   width: 100%;
   padding-top: 5cm;
@@ -71,18 +73,22 @@ header p{
   border-bottom: 3px solid hsla(233, 53%, 39%, 0.28);
   box-shadow: 3px 3px 8px hsla(233, 100%, 69%, 0.61);
 }
+main{
+  margin: auto;
+  padding: 50px;
+}
 .container-1, .container-2, .container-3{
   text-align: center;
   margin-bottom: 7cm;
 }
+
 
 h1, h2, h3{
   color:var(--cor2);
 }
 p{
   line-height: 30px;
-  margin:20px 0px;
-  padding: 10px;
+  margin:10px 0px;
   color: var(--cor3);
 }
 /* Header acima */
@@ -99,8 +105,8 @@ p{
 .container-2{
   text-align: center;
 }
-.container-2 h1{
-  font-size: 30px;
+ h1{
+  font-size: 34px;
 }
 .container-2 img{
   width:400px;
