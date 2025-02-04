@@ -50,26 +50,26 @@ header p, h1{
 }
 .link-1{
  
-  width: 10cm;
+  width: 9cm;
   height: 60px;
   color: white;
   text-decoration: none;
   background-color: var(--cor1);
   margin: 10px;
   padding:15px;
-  border-radius:50px;
+  border-radius:53px;
   border-bottom: 3px solid hsla(171, 61%, 37%, 1);
   box-shadow: 3px 3px 8px hsla(171, 44%, 52%, 1);
 }
 .link-2{
-  width: 10cm;
+  width: 9cm;
   height: 60px;
   color: white;
   text-decoration: none;
   background-color: var(--cor4);
   margin: 10px;
   padding:15px;
-  border-radius:50px;
+  border-radius:53px;
   border-bottom: 3px solid hsla(233, 53%, 39%, 0.28);
   box-shadow: 3px 3px 8px hsla(233, 100%, 69%, 0.61);
 }
