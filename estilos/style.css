@@ -89,15 +89,24 @@ h1, h2, h3{
 p{
   line-height: 30px;
   margin:10px 0px;
+  padding: 10px;
   color: var(--cor3);
 }
 /* Header acima */
 .container-1{
   text-align: center;
 }
-.container-1 img{
-  width: 400px;
+.img-container{
+  display: flex;
+  align-items: center;
+  justify-content:center;
   margin: 50px;
+}
+.img-container img{
+  width: 400px;
+}
+.container-1 h3{
+  margin-top: 56px;
 }
 
 /* Container-1 acima */
