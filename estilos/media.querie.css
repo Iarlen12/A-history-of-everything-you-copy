@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 992px){
+              body{
+                font-size: 20px;
+              }
+          header{
+            
+            max-height: 50vh;
+          }
+          .link-header{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          }
+          header h1{
+            font-size:59px;
+          }
+          header p{
+            font-size: 28px;
+          }
+          
+           #back-topo{
+            background: url('../imagens/../imagens/bg-header-desktop.png') center center no-repeat;
+            background-size: cover;
+          }
+          h1, h2{
+            font-size: 47px;
+          }
+          p{
+            font-size: 26px;
+            line-height: 1.8;
+            text-align: center;
+            width: 1350px;
+            padding: 0 50px 0 50px ;
+          }
+          
+          main{
+            text-align: center;
+            
+          }
+          article{
+            padding: 5cm;
+            width: 100%;
+          }
+          header, .container-1, .container-2, .container-3{
+            display: flex;
+            flex-direction: column;
+            justify-items:center;
+            align-items:center;
+          }
+          .container-info{
+            width: 1000px;
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items:center;
+          }
+          .img-container{
+            display: block;
+            text-align: left;
+          }
+          .img-container img{
+            width: 1300px;
+          }
+          .text-a{
+            text-align: left;
+            width: 700px;
+            max-height: 800px;
+          }
+          .text-a p{
+            width: 750px;
+            text-align: left;
+          }
+          .text-a h3{
+            text-indent: 42px;
+          }
+          
+          
+          
+}
