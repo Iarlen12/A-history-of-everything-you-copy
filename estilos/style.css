@@ -46,6 +46,7 @@ header p, h1{
   margin:30px;
   display: flex;
   flex-direction: column;
+  justify-content:center;
   align-items: center;
 }
 .link-1{
@@ -74,12 +75,12 @@ header p, h1{
   box-shadow: 3px 3px 8px hsla(233, 100%, 69%, 0.61);
 }
 main{
+  text-align: center;
   margin: auto;
   padding: 50px;
 }
 
 .container-1, .container-2{
-  text-align: center;
   margin-bottom: 7cm;
 }
 
@@ -94,12 +95,8 @@ p{
   color: var(--cor3);
 }
 /* Header acima */
-.container-1{
-  text-align: center;
-}
 .img-container{
   display: flex;
-  align-items: center;
   justify-content:center;
   margin: 50px;
 }
@@ -112,10 +109,6 @@ p{
 }
 
 /* Container-1 acima */
-
-.container-2{
-  text-align: center;
-}
  h1{
   font-size: 34px;
 }
@@ -172,7 +165,6 @@ footer a{
   color:var(--cor2);
 }
 .back{
-  text-align: center;
   display: inline-block;
    
 }
