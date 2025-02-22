@@ -3,11 +3,17 @@
 
 @media screen and (min-width: 992px){
              body{
-               font-size:16px;
                overflow-x: hidden;
+               font-size:16px;
              }
           header{
             max-height: 50vh;
+          }
+          header h1{
+            font-size: 34px;
+          }
+          header p{
+            width: 800px;
           }
           .link-header{
             display: flex;
@@ -24,21 +30,23 @@
             height:70px;
           }
           .link-1{
-            border-bottom: 5px solid hsla(171,61%,37%,0.827);
-            box-shadow: 5px 5px 10px hsla(171,60.6%,67.4%,0.544);
+            padding:19px;
+            border-bottom: 3px solid hsla(171,61%,37%,0.827);
+            box-shadow: 3px 5px 10px hsla(171,60.6%,67.4%,0.544);
           }
           .link-2{
-            border-bottom: 5px solid hsla(233, 53%, 39%, 0.28);
+            padding:19px;
+            border-bottom: 3px solid hsla(233, 53%, 39%, 0.28);
             box-shadow: 3px 3px 8px hsla(233, 100%, 69%, 0.61);
           }
           h1, h2{
-            font-size: 20px;
+            font-size: 28px;
           }
           p{
             font-size: 16px;
             line-height: 1.8;
             text-align: center;
-            width: 1350px;
+            width: 915px;
             padding: 30px 50px 0 50px ;
           }
           
@@ -58,6 +66,7 @@
           }
           /* header e configuracoes gerais acima*/
           .container-info{
+            gap:80px;
             margin-top: 2cm;
             width: 100%;
             display: flex;
@@ -73,6 +82,8 @@
             width: 900px;
           }
           .text-a{
+            display:flex;
+            flex-direction:column;
             position: relative;
             bottom: 130px;
             text-align: left;
@@ -80,18 +91,22 @@
             height: 500px;
           }
           .text-a div{
+            margin-top:20px;
+            position:relative;
+            top:30px;
             width: 300px;
             height: 150px;
             
           }
           .text-a p{
+            padding:5px;
             width: 444px;
             text-align: left;
           }
           .text-a h3{
             position:relative;
-            left:50px;
-            font-size:18px;
+            
+            font-size:23px;
           }
           
          
@@ -106,7 +121,7 @@
             width: 75px;
           }
           .info h3{
-            font-size: 18px;
+            font-size: 22px;
           }
           .info p{
             width: 520px;
@@ -142,4 +157,8 @@
             position: relative;
             bottom: 20px;
           }
+}
+
+@media screen and (min-width: 765px) and (max-width: 992px){
+  
 }
