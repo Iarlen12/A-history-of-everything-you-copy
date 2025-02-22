@@ -36,7 +36,7 @@ header p, h1{
   width: 100%;
   padding-top: 5cm;
   padding-bottom: 3cm;
-  background:url('../imagens/bg-header-mobile.png') center center no-repeat;
+  background:url('../imagens/header-mobile.png') center center no-repeat;
   background-size: cover;
 }
 
