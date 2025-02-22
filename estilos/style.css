@@ -101,7 +101,10 @@ p{
   margin: 50px;
 }
 .img-container img{
-  width: 400px;
+  width: 500px;
+}
+#device img{
+  width: 500px;
 }
 .container-1 h3{
   font-size: 26px;
@@ -143,7 +146,7 @@ Footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 54%;
+  height: 50vh;
   background:hsla(201, 11%, 66%, 0.14);
 }
 .topo-footer{
