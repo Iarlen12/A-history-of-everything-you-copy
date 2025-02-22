@@ -111,6 +111,9 @@
           
          
           /* container-1 acima*/
+              #device img{
+              width: 900px;
+            }
           .info{
             max-width: 100%;
             display:flex;
