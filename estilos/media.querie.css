@@ -2,11 +2,10 @@
 
 
 @media screen and (min-width: 992px){
-              body{
-                font-size: 20px;
-              }
+             body{
+               font-size:16px;
+             }
           header{
-            
             max-height: 50vh;
           }
           .link-header{
@@ -15,13 +14,6 @@
             justify-content: center;
             align-items: center;
           }
-          header h1{
-            font-size:59px;
-          }
-          header p{
-            font-size: 28px;
-          }
-          
            #back-topo{
             background: url('../imagens/../imagens/bg-header-desktop.png') center center no-repeat;
             background-size: cover;
@@ -39,10 +31,10 @@
             box-shadow: 3px 3px 8px hsla(233, 100%, 69%, 0.61);
           }
           h1, h2{
-            font-size: 47px;
+            font-size: 20px;
           }
           p{
-            font-size: 26px;
+            font-size: 16px;
             line-height: 1.8;
             text-align: center;
             width: 1350px;
@@ -64,10 +56,8 @@
             align-items:center;
           }
           /* header e configuracoes gerais acima*/
-          
           .container-info{
-            margin-top: 20px;
-            padding:px;
+            margin-top: 2cm;
             width: 100%;
             display: flex;
             flex-direction: row;
@@ -79,40 +69,44 @@
             justify-content:flex-start;
           }
           .img-container img{
-            width: 1200px;
+            width: 700px;
           }
           .text-a{
+            background:black;
             position: relative;
             bottom: 70px;
             margin-left: 2cm;
             text-align: left;
-            width: 700px;
-            max-height: 800px;
+            width: 620px;
+            height: 620px;
           }
           .text-a p{
-            font-size: 23px;
-            padding: 10px;
-            max-width: 600px;
+            
+            padding-bottom:20px;
+            width: 444px;
             text-align: left;
           }
           .text-a h3{
-            font-size: 32px;
+            position:relative;
+            left:50px;
+            font-size:18px;
           }
+         
           /* container-1 acima*/
           .info{
             max-width: 100%;
             display:flex;
             flex-direction: row;
+            flex-wrap:wrap;
           }
           .info > div > img{
             width: 75px;
           }
           .info h3{
-            font-size: 34px;
+            font-size: 18px;
           }
           .info p{
-            font-size: 23px;
-            width: 700px;
+            width: 520px;
           }
           .back-midias{
             margin-top: 4cm;
@@ -120,7 +114,7 @@
           }
           .back-midias img{
             margin-right:3cm;
-            width: 250px;
+            width: 130px;
           }
           /* footer abaixo*/
           footer{
