@@ -69,20 +69,21 @@
             justify-content:flex-start;
           }
           .img-container img{
-            width: 700px;
+            width: 900px;
           }
           .text-a{
-            background:black;
             position: relative;
-            bottom: 70px;
-            margin-left: 2cm;
+            bottom: 130px;
             text-align: left;
-            width: 620px;
-            height: 620px;
+            width: 400px;
+            height: 500px;
+          }
+          .text-a div{
+            width: 300px;
+            height: 150px;
+            
           }
           .text-a p{
-            
-            padding-bottom:20px;
             width: 444px;
             text-align: left;
           }
@@ -91,6 +92,7 @@
             left:50px;
             font-size:18px;
           }
+          
          
           /* container-1 acima*/
           .info{
