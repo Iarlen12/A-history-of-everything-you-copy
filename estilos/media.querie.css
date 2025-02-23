@@ -7,6 +7,7 @@
                font-size:16px;
              }
           header{
+            width: 100vw;
             max-height: 50vh;
           }
           header h1{
@@ -26,18 +27,18 @@
             background-size: cover;
           }
           .link-1,.link-2{
-            width: 9cm;
-            height:70px;
+            border-radius:76px;
+            width: 7cm;
+            height:60px;
+            padding: 15px;
           }
           .link-1{
-            padding:19px;
-            border-bottom: 3px solid hsla(171,61%,37%,0.827);
-            box-shadow: 3px 5px 10px hsla(171,60.6%,67.4%,0.544);
+            border-bottom: 4px solid hsla(171,61%,37%,0.827);
+            box-shadow: 6px 7px 10px hsla(171,60.6%,67.4%,0.544);
           }
           .link-2{
-            padding:19px;
-            border-bottom: 3px solid hsla(233, 53%, 39%, 0.28);
-            box-shadow: 3px 3px 8px hsla(233, 100%, 69%, 0.61);
+            border-bottom: 4px solid hsla(233, 53%, 39%, 0.28);
+            box-shadow: 6px 7px 8px hsla(233, 100%, 69%, 0.61);
           }
           h1, h2{
             font-size: 28px;
@@ -162,6 +163,17 @@
           }
 }
 
-@media screen and (min-width: 765px) and (max-width: 992px){
-  
+@media screen and (min-width: 320px) and (max-width: 765px){
+            .link-1, .link-2{
+              width:9cm;
+            }
+          .img-container img{
+            width: 400px;
+          }
+           #device img{
+            width: 400px;
+          }
+          footer{
+            height:50%;
+          }
 }
